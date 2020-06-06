@@ -1,7 +1,7 @@
 # WD-DX4000-QBittorrent-LCDStatus
 ### Display transfer stats from qBittorrent on the DX4000's LCD
 
-At the moment, this only displays two very basic sets of info: Current Up/Down transfer rate and Session Total Uploaded/Downloaded.. For example:
+At the moment, cycles between two very basic sets of info: Current Up/Down transfer rate and Session Total Uploaded/Downloaded.. For example:
 
 ```
 U:512Kbps
