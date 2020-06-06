@@ -61,10 +61,8 @@ while True:
         line1 = "UP:{up_speed}".format(up_speed=upload_speed)
         line2 = "DN:{dl_speed}".format(dl_speed=download_speed)
         # update LCD
-        #subprocess.run([lcd_api_exe, '0', line1])
-        #subprocess.run([lcd_api_exe, '1', line2])
-        print(line1)
-        print(line2)
+        subprocess.run([lcd_api_exe, '0', line1])
+        subprocess.run([lcd_api_exe, '1', line2])
         time.sleep(1)
 
     for i in range(10):
@@ -75,8 +73,6 @@ while True:
         #download_total = "{:.0f}".format((transfer_info.dl_info_data / 1000000))
         line3 = "UP:{up_total}".format(up_total=upload_total)
         line4 = "DN:{dl_total}".format(dl_total=download_total)
-        #subprocess.run([lcd_api_exe, '0', line3])
-        #subprocess.run([lcd_api_exe, '1', line4])
-        print(line3)
-        print(line4)
+        subprocess.run([lcd_api_exe, '0', line3])
+        subprocess.run([lcd_api_exe, '1', line4])
         time.sleep(1)
