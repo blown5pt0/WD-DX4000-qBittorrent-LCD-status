@@ -4,12 +4,12 @@
 At the moment, cycles between two very basic sets of info: Current Up/Down transfer rate and Session Total Uploaded/Downloaded.. For example:
 
 ```
-U:512Kbps
-D:1400Kbps
+UP:512Kbps
+DN:1400Kbps
 ```
 ```
-U:4000MB
-D:16000MB
+UP:4000MB
+DN:16000MB
 ```
 
 - Requires Python 3
