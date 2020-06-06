@@ -1,5 +1,16 @@
 # WD-DX4000-QBittorrent-LCDStatus
-Display transfer stats from qBittorrent on the DX4000's LCD
+### Display transfer stats from qBittorrent on the DX4000's LCD
+
+At the moment, this only displays two very basic sets of info: Current Up/Down transfer rate and Session Total Uploaded/Downloaded.. For example:
+
+```
+U:512Kbps
+D:1400Kbps
+```
+```
+U:4000MB
+D:16000MB
+```
 
 - Requires Python 3
 - Only tested with WD DX4000 NAS
