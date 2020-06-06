@@ -20,7 +20,7 @@ DN:16000MB
 
 - Enable qBittorrent WebUI and set authentication parameters
 - Copy `.env_example` to `.env` and update parameters to match Web UI setup
-- Install dependencies with `pip install`
+- Install dependencies with `pip install -r requirements.txt`
 - Start script with `python qbt_lcd_driver.py`
 
 To exit the script, use CTRL + C
